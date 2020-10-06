@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a { color: #4caed4;}
+
+a:hover { color: #4caed4;}
+
+
+.skewed {
+    background-color: #4caed4;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 20px 40px;
+    width: max-content;
+    -webkit-transform: skewY(-4deg);
+    -moz-transform: skewY(-4deg);
+    -ms-transform: skewY(-4deg);
+    -o-transform: skewY(-4deg);
+    transform: skewY(-4deg);
+    color: #ffffff;
+}
+
+.primary-colour {
+    color: #0a516c;
+}
+
+.secondary-colour {
+    color: #4caed4;
+}
+
+.background-alt-colour {
+    background-image: linear-gradient( to top, #2e2e2e, #323232,#383838,#373737,#2c2c2c);
+}
+
+/* INTRO */
+
+#intro {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+h1#intro-name {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+/* NAVBAR */
+
+#navbar-container { background-color: #ffffff; z-index: 999;}
+.navbar { padding: 0;}
+
+.navbar-nav li:first-child a { padding-left: 0 !important;}
+
+.nav-link:hover {
+    color:#4caed4 !important;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+.content {
+    padding: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 40px;
+}
+
+
+/* ABOUT */
+#about {
+    background-image: linear-gradient( to top, #2e2e2e, #323232,#383838,#373737,#2c2c2c);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* SKILLS */
+
+#skills {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+  
+.single-chart {
+    justify-content: space-around ;
+}
+  
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+  
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+  
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+  
+ @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+}
+  
+.circular-chart.blue .circle {
+    stroke: #4caed4;
+}
+
+.circular-chart.orange .circle {
+    stroke: #f97304;
+}
+  
+.percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+}
+
+/* experience */
+
+#experience {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* EDUCATION */
+
+#education {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 40px;
+}
+
+/* CONTACT */
+
+#contact {
+    background-color: #0a516c;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #ffffff;
+}  
